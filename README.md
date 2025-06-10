@@ -13,7 +13,33 @@ python3 benchmark.py
 Basic python script that produce to its output time consumed for each algorithm (dp, primitive, primitive_optimized) for incremental N until previous reaches defined time limit 60s(default)
 
 ## Pre calculated benchmark test, time shown in second(s).
-![screenshot](benchmark-test.png)
+|N|dp|primitive|primitive_optimized|
+|-:|:------:|:------:|:------:|
+|1|0.000|0.000|0.000|
+|2|0.000|0.000|0.000|
+|3|0.000|0.000|0.000|
+|4|0.000|0.000|0.000|
+|5|0.000|0.000|0.000|
+|6|0.000|0.000|0.000|
+|7|0.000|0.000|0.000|
+|8|0.000|0.000|0.000|
+|9|0.000|0.020|0.000|
+|10|0.000|0.330|0.020|
+|11|0.000|3.640|0.200|
+|12|0.010|47.800|2.570|
+|13|0.030|657.540|33.940|
+|14|0.030||348.140|
+|15|0.050|||
+|16|0.130|||
+|17|0.270|||
+|18|0.650|||
+|19|1.470|||
+|20|3.060|||
+|21|6.740|||
+|22|15.220|||
+|23|31.270|||
+|24|76.510|||
+|25|146.570|||
 
 ### RAW data (4th column is for comparing output found by each algorothim)
 ```
